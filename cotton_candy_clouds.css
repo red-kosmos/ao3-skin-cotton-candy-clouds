@@ -1,0 +1,763 @@
+#outer,
+body {
+  background-image: linear-gradient(#ccddff, #f4d0ff);
+  color: #185281;
+}
+
+#outer *,
+body * {
+  color: #185281;
+}
+
+#outer.wrapper,
+.toggled form fieldset fieldset {
+  border-radius: 0;
+}
+
+#dashboard,
+#dashboard.own {
+  padding: 0.25em;
+}
+
+#header #greeting {
+  margin: auto;
+}
+
+.user h2.heading,
+.admin h2.heading,
+.collection h2.heading {
+  margin: 5px;
+  text-align: center;
+}
+
+div.preface {
+  margin: 1.5em;
+}
+
+.help.symbol.question.modal.modal-attached span {
+  border-radius: 8px;
+  transform: scale(0.9);
+}
+
+.blurb .header h5.fandoms {
+  overflow-wrap: break-word !important;
+  text-align: center !important;
+  margin: 0;
+}
+
+.header h4.heading {
+  overflow-wrap: break-word !important;
+  text-align: center !important;
+  margin: 10px 0 0 0;
+}
+
+.skins .header h4.heading,
+.collection .header h4.heading,
+.collection .header h5.heading {
+  overflow-wrap: break-word !important;
+  text-align: left !important;
+  margin-left: 65px !important;
+}
+
+.collection ul.actions li * {
+  border-radius: 20px;
+  background-color: #b3d9ff;
+  max-height: 18px;
+}
+
+.skins.own.picture.blurb.group div.header.module {
+  padding-bottom: 20px;
+}
+
+.skins .header .icon {
+  border-radius: 15px;
+}
+
+p.datetime {
+  position: absolute !important;
+  top: -12px !important;
+  right: -2px !important;
+}
+
+.skins p.datetime {
+  position: absolute !important;
+  top: -8px !important;
+  right: -2px !important;
+}
+
+a.tag {
+  word-break: break-word;
+}
+
+ul.required-tags {
+  position: initial !important;
+  top: initial !important;
+  text-align: center !important;
+  display: inline-block !important;
+  width: 100% !important;
+  margin: 0 0 -4px 0 !important;
+  line-height: 90%;
+}
+
+.blurb h4.heading,
+.blurb .header .heading {
+  margin: 0;
+}
+
+ul.required-tags li {
+  display: inline-flex !important;
+  position: initial !important;
+  left: initial !important;
+}
+
+#outer .region,
+#footer .group,
+.post fieldset fieldset,
+fieldset fieldset {
+  background: none;
+}
+
+.group,
+.group .group,
+.region,
+#main .verbose legend,
+.verbose fieldset,
+fieldset,
+fieldset fieldset ul,
+ul.notes,
+table,
+.symbol .question:hover,
+.ui-sortable li,
+div.dynamic,
+.dynamic form,
+.required .autocomplete,
+.toggled form {
+  background: none;
+  border-color: #99b3ff;
+  outline: #111;
+  box-shadow: none;
+  border-radius: 20px;
+}
+
+.notice,
+.autocomplete .notice {
+  background: #ded7f4;
+  border-color: #99b3ff;
+  outline: #111;
+  box-shadow: none;
+  border-radius: 14px;
+  padding: 5px;
+}
+
+th,
+td:hover,
+tr:hover,
+form dl {
+  background: none;
+  border-color: #99b3ff;
+  outline: #111;
+  box-shadow: none;
+}
+
+#modal,
+.system .intro,
+.comment_error,
+.kudos_error,
+.ui-datepicker table,
+#ui-datepicker-div {
+  border-radius: 20px;
+  background-color: #b3ccff;
+  border: none;
+}
+
+input {
+  background: white;
+  border-color: #800040;
+  outline: #111;
+  box-shadow: none;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus,
+input#site_search,
+#header .actions a:focus {
+  background: white;
+}
+
+#header .actions a:hover,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover {
+  background: #bebef4;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.splash .favorite li:nth-of-type(odd) a,
+.ui-datepicker td:hover,
+#tos_prompt .heading,
+#tos_prompt [disabled] {
+  background: #bebef4;
+}
+
+.javascript,
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: #bebef4;
+}
+
+.statistics .index li:nth-of-type(even) {
+  background: #b3b3ff;
+}
+
+#outer #footer,
+#header ul.primary {
+  background: #9383c9;
+  box-shadow: none;
+  border: none;
+  border-radius: 0px;
+}
+
+#header .logo,
+#header .heading sup,
+#header #search .submit,
+#greeting ul.user.navigation.actions li.dropdown:first-child,
+ul.required-tags li a span .text,
+a.symbol.modal span span.text {
+  display: none !important;
+}
+
+#header .heading span::before {
+  content: '. ⋆ ☁︎ ';
+  font-size: 12px;
+  top: 3px;
+  left: 12px;
+  position: absolute;
+  color: #603f83 !important;
+}
+
+#header h1.heading {
+  padding: 0;
+}
+
+#header .heading span {
+  color: #603f83 !important;
+  padding-left: 45px;
+  font-size: 15px;
+}
+
+#login,
+#greeting {
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  white-space: nowrap;
+}
+
+#dashboard ul,
+dl.meta,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+div.comment,
+li.comment,
+.toggled form,
+form dl dt,
+form.single fieldset,
+#inner .module .heading,
+.bookmark .status span,
+.splash .news li,
+.filters .group dt.bookmarker {
+  border-color: #8080ff;
+}
+
+#main li.blurb,
+.listbox,
+div.wrapper .work.meta.group,
+#edit-multiple-works fieldset ul.index li fieldset.fandom.listbox {
+  border-radius: 20px;
+  border-color: #8080ff;
+  padding: 12px 12px;
+  background-image: linear-gradient(rgb(171, 172, 237, 0.4), rgb(250, 183, 227, 0.4));
+}
+
+div.wrapper .statistics.meta.group {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+li.user.short.blurb {
+  padding: 20px !important;
+}
+
+a,
+input {
+  border-radius: 20px !important;
+}
+
+.icon {
+  border-radius: 50px;
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: 1px 1px 3px #000;
+}
+
+.wrapper,
+.comment {
+  border-radius: 20px;
+}
+
+#dashboard .current,
+#outer .current,
+.current,
+.current a:visited,
+.actions a:active,
+.current a:visited span.unread,
+.replied,
+span.claimed,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #bebef4;
+  border-color: #555;
+  box-shadow: -1px -1px 2px #111;
+  border-radius: 20px;
+}
+
+input,
+textarea {
+  box-shadow: inset 0 1px 2px #000;
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+fieldset fieldset.listbox,
+.dashboard .listbox .index {
+  box-shadow: inset 1px 1px 3px #000;
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+a.tag:hover,
+.symbol .question,
+.qtip-content {
+  background: #f7c6f7;
+}
+
+a:visited:hover {
+  color: #63594f;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #f7c6f7;
+}
+
+#header #greeting img,
+#header .heading a,
+#header .heading a:visited,
+#header .user a:hover,
+#header .user a:focus,
+#header fieldset,
+#header form,
+#header p,
+#dashboard a:hover,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.splash .module h3,
+.splash .browse li a:before,
+.required,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #f7c6f7;
+}
+
+#greeting .icon,
+#dashboard,
+#dashboard.own,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-color: #f7c6f7;
+}
+
+a,
+a:link,
+a.tag,
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #5f2c96;
+}
+
+a:visited,
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+span.series .divider {
+  color: #acadac;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#header .actions a {
+  background: #9fcaed;
+  text-shadow: none;
+  border-color: #000;
+}
+
+.actions a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus {
+  background: #9fcaed;
+  border-color: none;
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 3px #47367c;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  border: 0;
+}
+
+#outer .group .heading,
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading,
+.heading,
+.userstuff h2 {
+  text-shadow: none;
+  background: none;
+}
+
+#header .actions a,
+fieldset fieldset,
+.mce-container button,
+.filters .expander {
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox {
+  outline: none;
+}
+
+form dd.required {
+  color: #eee;
+}
+
+.mce-container input:focus,
+.announcement .userstuff a,
+.announcement .userstuff a:link,
+.announcement .userstuff a:visited:hover {
+  color: #F3EFEC;
+}
+
+.announcement .userstuff a:visited {
+  color: #666;
+}
+
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #999;
+}
+
+.event.announcement .userstuff a,
+.filters .expander {
+  color: #eee;
+}
+
+select {
+  border: 0px !important;
+  border-radius: 14px;
+  outline: none !important;
+  height: 25px !important;
+  text-align: center !important;
+}
+
+dd.language,
+#language_id,
+#encoding,
+dd.sort,
+dd.rating,
+dd.skin {
+  border-radius: 14px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  filter: hue-rotate(90deg);
+  opacity: 70%;
+}
+
+.search input,
+input[type='text'] {
+  max-width: 90%;
+  margin: auto;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type {
+  filter: hue-rotate(275deg);
+  opacity: 80%;
+}
+
+#stat_chart svg rect[fill="#ffffff"],
+#stat_chart svg rect[fill="#cccccc"],
+#stat_chart svg rect[fill="#ebebeb"] {
+  opacity: 70%;
+}
+
+#stat_chart svg {
+  border-radius: 0 0 20px 20px !important;
+}
+
+.stats-index div.wrapper,
+div.wrapper .statistics.meta.group {
+  border-radius: 20px 20px 0 0;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.fandoms.heading a.tag,
+.fandom.tags li a.tag,
+.rating.tags li a.tag,
+li.warnings a.tag,
+.warning.tags li a.tag,
+.category.tags li a.tag,
+li.relationships a.tag,
+.relationship.tags li a.tag,
+li.characters a.tag,
+.character.tags li a.tag,
+li.freeforms a.tag,
+.freeform.tags li a.tag,
+.series .position a,
+.series a.next,
+.series a.previous,
+li.work .series li a,
+dl.work dd.collections a {
+  border-radius: 14px;
+  padding: 2px 8px;
+  margin: 2px 0px;
+  display: inline-block;
+  border: none !important;
+}
+
+li.relationships a.tag,
+.relationship.tags li a.tag,
+li.characters a.tag,
+.character.tags li a.tag {
+  background-color: #f3bae5 !important;
+  color: #5c234e !important;
+}
+
+li.freeforms a.tag,
+.freeform.tags li a.tag {
+  background-color: #b3b3ff !important;
+  color: #181881 !important;
+}
+
+dl.work dd.collections a,
+.series .position a,
+.series a.next,
+.series a.previous,
+li.work .series li a {
+  background-color: #ffccff !important;
+  color: #732673 !important;
+}
+
+.rating.tags li a.tag,
+li.warnings a.tag,
+.warning.tags li a.tag,
+.category.tags li a.tag,
+.fandoms.heading a.tag,
+.fandom.tags li a.tag {
+  background: #b3d9ff !important;
+  color: #185281 !important;
+}
+
+li.relationships a.tag,
+.relationship.tags li a.tag,
+li.characters a.tag,
+.character.tags li a.tag,
+.series .position a,
+.series a.next,
+.series a.previous,
+.rating.tags li a.tag:hover,
+li.warnings a.tag:hover,
+.warning.tags li a.tag:hover,
+.category.tags li a.tag:hover,
+.fandoms.heading a.tag,
+.fandom.tags li a.tag:hover,
+li.relationships a.tag:hover,
+.relationship.tags li a.tag:hover,
+li.characters a.tag:hover,
+.character.tags li a.tag:hover,
+.series .position a:hover,
+.series a.next:hover,
+.series a.previous:hover {
+  opacity: 90%;
+}
+
+#footer a {
+  border-bottom: none !important;
+  color: #f7c6f7 !important;
+}
+
+#footer a:hover,
+#footer a:focus {
+  color: #fff;
+}
+
+dt.tags,
+dd.tags {
+  float: left;
+}
+
+.fandoms a.tag {
+  font-size: 90%;
+}
+
+dt a,
+.stats dd a,
+.heading a,
+.jump a,
+span.link a,
+p a:not(#go_to_filters) {
+  border-bottom: none !important;
+  color: #5f2c96 !important;
+}
+
+h2.heading a.tag {
+  font-size: 80%;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.fandoms.heading {
+  visibility: hidden;
+  line-height: 0;
+}
+
+.fandoms.heading a.tag {
+  visibility: visible;
+  line-height: normal;
+}
+
+input#site_search {
+  margin: right;
+  margin-right: none;
+  display: inline-block;
+}
+
+.comment blockquote.userstuff {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+ol.comment li.comment,
+ol.thread li.comment {
+  border-radius: 20px;
+  border-color: #8080ff;
+  padding: 10px;
+}
+
+#dashboard ul.navigation li a,
+#dashboard ul.navigation li span {
+  color: #185281;
+}
+
+td a,
+#user-fandoms ol li a,
+#edit-multiple-works fieldset ul.index.concise li a {
+  border: none !important;
+  color: #5f2c96 !important;
+}
+
+#edit-multiple-works fieldset ul.index.concise li {
+  width: 100%;
+}
+
+#edit-multiple-works fieldset ul.index.concise li label.action {
+  background: none;
+  border: none;
+}
