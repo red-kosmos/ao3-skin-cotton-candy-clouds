@@ -463,14 +463,21 @@ span.series .divider {
 .action,
 .action:link,
 .actions input,
-input[type="submit"],
 button,
 .current,
 .actions label,
-#header .actions a {
+#header .actions a,
+input[type="submit"] {
   background: #9fcaed;
   text-shadow: none;
   border-color: #000;
+}
+
+.actions button {
+  background: #9fcaed !important;
+  text-shadow: none;
+  border-color: #000;
+  border-radius: 20px;
 }
 
 .actions a:hover,
