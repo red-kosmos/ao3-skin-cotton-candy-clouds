@@ -28,6 +28,7 @@ body * {
 .collection h2.heading {
   margin: 5px;
   text-align: center;
+  padding-left: 100px;
 }
 
 div.preface {
@@ -308,7 +309,8 @@ li.user.short.blurb {
 }
 
 a,
-input {
+input, div.profile div.wrapper dl.meta,
+.actions label{
   border-radius: 20px !important;
 }
 
